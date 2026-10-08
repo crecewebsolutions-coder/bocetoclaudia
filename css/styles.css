@@ -962,6 +962,10 @@ button, input, select, textarea {
     gap: 2rem;
   }
 
+  body {
+    padding-bottom: 75px;
+  }
+
   .floating-actions-dock {
     bottom: 14px;
     right: 12px;
@@ -1077,4 +1081,3 @@ button, input, select, textarea {
   0% { transform: translate(0, 0) scale(1); }
   100% { transform: translate(30px, 40px) scale(1.08); }
 }
-
